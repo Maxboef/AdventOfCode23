@@ -21,7 +21,6 @@ for idx, value in enumerate(seedMap):
             
 print(newSeedmap)
 
-
 soilMap = [] 
 fertilizerMap = [] 
 waterMap = []
@@ -29,8 +28,6 @@ lightMap = []
 temperatureMap = []
 humidityMap = []
 locationMap = []
-
-# print(seedMap)
 
 #FormatArrays
 latestMap = seedMap.copy()
@@ -74,7 +71,6 @@ for line in read_input():
                 latestMap[idx] = newValue
 
 locationMap = latestMap.copy()
-
 
 # print(soilMap)    
 # print(fertilizerMap)
